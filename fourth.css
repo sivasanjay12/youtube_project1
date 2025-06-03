@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    height: 900px;
+    width: 100pvw;
+    background-color:  orange;
+    display: flex;
+}
+.side_bar{
+   height: 80px;
+    width: 200px;
+    background-color: aqua;
+    position: fixed;
+    overflow: hidden;
+}
+.side_bar:hover{
+    height: 400px;
+    width: 200px;
+    background-color: aqua;
+    position: fixed;
+    transition-duration: 4s;
+    
+}
+.nav_bar{
+    height: 80px;
+    width:1250px;
+    background-color: antiquewhite;
+    position: fixed;
+}
+.content{
+    height: 700px;
+    width: 1250px;
+    background-color: brown;
+    margin-left: 60px;
+}
+.common{
+    font-size: 2rem;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.side_icons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 20px;
+    font-size: 2rem;
+    column-gap: 40px;
+}
+.icon_name{
+    margin-left: 60px;
+    margin-top: -30px;
+    font-size: 1.2rem;
+}
+.space{
+    margin-top: 20px;
+}
+.youtube_img{
+    height: 100%;
+}
