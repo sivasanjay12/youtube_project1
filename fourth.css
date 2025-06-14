@@ -6,36 +6,38 @@
 }
 .container{
     height: 900px;
-    width: 100pvw;
-    background-color:  orange;
+    width: 100vw;
+    /* background-color:  orange; */
     display: flex;
 }
 .side_bar{
    height: 80px;
     width: 200px;
-    background-color: aqua;
+    /* background-color: aqua; */
     position: fixed;
     overflow: hidden;
 }
 .side_bar:hover{
-    height: 400px;
+    height: 350px;
     width: 200px;
-    background-color: aqua;
+    background-color: white;
     position: fixed;
     transition-duration: 4s;
     
 }
 .nav_bar{
-    height: 80px;
+    height: 60px;
     width:1250px;
-    background-color: antiquewhite;
+    background-color: white;
     position: fixed;
+    display: flex;
 }
 .content{
-    height: 700px;
+    height: 1500px;
     width: 1250px;
-    background-color: brown;
+    /* background-color: brown; */
     margin-left: 60px;
+    z-index: 999;
 }
 .common{
     font-size: 2rem;
@@ -60,4 +62,383 @@
 }
 .youtube_img{
     height: 100%;
+}
+.head2{
+    height: 70px;
+    width: 55%;
+    /* background-color: rgb(252, 110, 110); */
+    margin-left: 100px;
+    display: flex;
+    margin-top: 10px;
+}
+.search_icon{
+    height: 50px;
+    width: 80px;
+    border: 2px solid rgb(238, 236, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 50px;
+     border-top-right-radius: 50px;
+     background-color: rgb(223, 221, 221);
+
+}
+.search{
+    height: 50px;
+    width: 550px;
+    border: 1px solid rgb(228, 226, 226);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-size: 1.5rem;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* margin-top: 80px; */
+    
+}
+.mic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 221, 221);
+}
+.head3{
+     height: 50px;
+    width: 150px;
+    font-size: 1.5rem;
+    background-color: rgb(223, 221, 221);
+    padding-left: 35px;
+    padding-top: 10px;
+    border-radius: 1000px;
+    margin-left:70px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+.mic2{
+    height: 50px;
+    width: 120px;
+    border-radius: 50px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 221, 221);
+   margin-top: 10px;
+   color: blue;
+   margin-right: 10px;
+}
+.menu_icon{
+    height: 50px;
+    width: 60px;
+    border-radius: 50px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 221, 221);
+   margin-top: 10px;
+}
+.vlog_logo{
+    margin-top: 80px;
+    margin-left: 50px;
+    border-radius: 20px;
+    width: 80vw;
+}
+.vlog_name{
+    width: 70%;
+    height: 200px;
+    /* background-color: blue; */
+    display: flex;
+    margin-left: 50px;
+}
+.vlog_details{
+    margin-top: 20px;
+    padding: 20px;
+}
+.tick{
+    font-size: 1.1rem;
+}
+.bt_subscribe{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+.link{
+    color: blue;
+}
+.sticky{
+    height: 40px;
+    width: 100vw;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    position: sticky;
+    top: 60px;
+}
+.sticky_notes{
+    font-size: 1.5rem;
+    padding-left: 20px;
+    color: gray;
+}
+.sticky_notes:hover{
+    text-decoration: underline;
+    color: black;
+}
+.vedio_tag{
+    height: 50px;
+    width: 50vw;
+    /* background-color: blueviolet; */
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.vedio_tags1{
+    height: 35px;
+    width: 80px;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.vedio_tags{
+    height: 35px;
+    width: 80px;
+    font-size: 1rem;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.vedio_content{
+    height: 250px;
+    width: 270px;
+    /* background-color: blueviolet; */
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.img1{
+   height: 150px;
+    width:100%;
+    border-radius: 20px;
+}
+.vedio_divs{
+    display: flex;
+}
+.opacity{
+    opacity: 0.5;
+    z-index: -1;
+}
+.menu1{
+    display: flex;
+
+}
+.menu2{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.content1{
+    font-size: 0.8rem;
+}
+@media screen and (min-width:768px) and (max-width:991px){
+        .common{
+    font-size: 1.3rem;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.head2{
+    height: 30px;
+    width: 30%;
+    
+}
+.search{
+    height: 40px;
+    width: 400px;
+    margin-left: -80px;
+    font-size: 1.3rem;
+     padding-left: 20px;
+    padding-top: 5px;
+}
+.search_icon{
+    height: 40px;
+    width: 50px;
+    font-size:10px
+}
+.mic{
+    height: 40px;
+    width: 40px;
+    margin-left: -1px;
+}
+.youtube_img{
+    height: 60px;
+    margin-left: -20px;
+
+}
+.vlog_name{
+    height: 350px;
+}
+.vlog_img{
+    height: 300px;
+    width: 300px;
+}
+.mic2{
+    height: 40px;
+    width: 100px;
+}
+.menu_icon{
+    margin-left: 50px;
+    height: 40px;
+    width: 40px;
+}
+    .vedio_divs{
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:767px){
+       .common{
+    font-size: 1.3rem;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.head2{
+    height: 30px;
+    width: 30%;
+    
+}
+.search{
+    height: 40px;
+    width: 350px;
+    margin-left: -80px;
+    font-size: 1.3rem;
+     padding-left: 20px;
+    padding-top: 5px;
+}
+.search_icon{
+    height: 40px;
+    width: 50px;
+    font-size:10px
+}
+.mic{
+    height: 40px;
+    width: 40px;
+    margin-left: -1px;
+}
+.youtube_img{
+    height: 60px;
+    margin-left: -20px;
+
+}
+.vlog_name{
+    height: 350px;
+}
+.vlog_img{
+    height: 300px;
+    width: 300px;
+}
+    .vedio_divs{
+        display: grid;
+        grid-template-columns: 300px 300px;
+    }
+} 
+@media screen and (max-width:575px){
+    .common{
+    font-size: 1.3rem;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.head2{
+    height: 30px;
+    width: 30%;
+    margin-left: 80px;
+}
+.search{
+    height: 35px;
+    width: 150px;
+    margin-left: -80px;
+    font-size: 1.2rem;
+     padding-left: 20px;
+    padding-top: 5px;
+}
+.search_icon{
+    height: 35px;
+    width: 50px;
+    font-size:10px
+}
+.mic{
+    height: 35px;
+    width: 35px;
+    margin-left: -1px;
+}
+.mic2{
+    height: 35px;
+    width: 80px;
+    border-radius: 50px;
+    margin-left: -215px;
+   font-size: 1rem;
+   
+}
+.content{
+    height: 50px;
+}
+.youtube_img{
+    height: 60px;
+    margin-left: -30px;
+
+}
+.menu_icon{
+    display: none;
+}
+.content1{
+    font-size: 1.2rem;
+}
+.vedio_content{
+    width: 350px;
+    height: 300px;
+}
+.menu2{
+    margin-left: 150px;
+}
+.vlog_logo{
+    margin-left: 0px;
+}
+.vlog_name{
+    display: block;
+    margin: auto;
+    height: 350px;
+}
+.vlog_details{
+    margin-top: -20px;
+    margin-left: -70px;
+}
+.sticky_notes{
+    font-size: 1rem;
+    
+}
+.vedio_tags1{
+    margin-left: -30px;
+}
+    .vedio_divs{
+         margin-left: -50px;
+        display: grid;
+        grid-template-columns: repeat(autofit,(1,1fr));
+    }
+    
 }

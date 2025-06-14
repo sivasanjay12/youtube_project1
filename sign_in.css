@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(241, 240, 238);
+
+}
+.sign_div{
+    height: 400px;
+    width: 70vw;
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    
+}
+.verify{
+    height: 50%;
+    width: 50%;
+  /* background-color: aqua; */
+  margin-top: 40px;
+  padding-left: 30px;
+}
+.next{
+    height: 80%;
+    width: 45%;
+  /* background-color: lightblue; */
+  margin-top: 40px;
+}
+.g_img{
+    height: 50px;
+    width: 50px;
+}
+.mail_img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+h1{
+margin-top: 20px;
+}
+.mail{
+    margin-top: -5px;
+}
+.combine{
+    display: flex;
+}
+h6{
+    font-size: 1rem;
+    margin-top: 28px;
+    margin-left: 10px;
+}
+p{
+    padding-top: 100px;
+}
+button{
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border: solid blue;
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 50px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.form{
+    width: 80vw;
+    margin-left: 210px;
+    margin-top: 20px;
+   display: flex;
+}
+select{
+    background-color: rgb(241, 240, 238);
+    border: rgb(241, 240, 238);
+}
+.help{
+    display: flex;
+    margin-left: 500px;
+}
+h3{
+    font-size: 0.8rem;
+    margin-left: 40px;
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .sign_div{
+    height: 100vh;
+    width: 100vw;
+    margin-top: 0px;
+    border-radius: 0px;
+    display: flex;
+}
+.verify{
+    height: 100%;
+    width: 50%;
+  /* background-color: aqua; */
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.next{
+    height: 80%;
+    width: 50vw;
+  /* background-color: lightblue; */
+  margin-top: 0px;
+  margin-left: -30px;
+}
+.form{
+    margin-left: 20px;
+    margin-top: -80px;
+   display: flex;
+}
+select{
+    background-color: white;
+    border: white;
+}
+.help{
+    display: flex;
+    margin-left: 370px;
+}
+}
+@media screen and (min-width:576px) and (max-width:767px){
+   .sign_div{
+    height: 500px;
+    width: 80vw;
+    margin-top: 50px;
+    border-radius: 30px;
+    display: block;
+}
+.verify{
+    height: 100%;
+    width: 100%;
+  /* background-color: aqua; */
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.next{
+    height: 80%;
+    width: 70vw;
+  /* background-color: lightblue; */
+  margin-top: -380px;
+  margin-left: 30px;
+}
+button{
+    margin-left: 350px;
+    margin-top: 150px;
+}
+.form{
+    margin-left: 80px;
+    margin-top: 10px;
+   display: flex;
+}
+select{
+    background-color: rgb(241, 240, 238);
+    border: rgb(241, 240, 238);
+}
+.help{
+    display: flex;
+    margin-left: 70px;
+}
+}
+@media screen and (max-width:575px){
+   .sign_div{
+    height: 100vh;
+    width: 100vw;
+    margin-top: 0px;
+    border-radius: 0px;
+    display: block;
+}
+.verify{
+    height: 100%;
+    width: 50%;
+  /* background-color: aqua; */
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.next{
+    height: 80%;
+    width: 90vw;
+  /* background-color: lightblue; */
+  margin-top: -530px;
+  margin-left: 30px;
+}
+.form{
+    margin-left: 20px;
+    margin-top: -80px;
+   display: flex;
+}
+select{
+    background-color: white;
+    border: white;
+}
+.help{
+    display: flex;
+    margin-left: 70px;
+}
+}
